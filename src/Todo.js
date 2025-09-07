@@ -12,7 +12,7 @@ export default function Todo() {
   const [editTitle, setEditTitle] = useState("");
   const [editDescription, setEditDescription] = useState("");
 
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://mern-backend-r6e8.onrender.com";
 
   const handleSubmit = () => {
     setError("");
